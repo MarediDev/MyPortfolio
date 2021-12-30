@@ -1,0 +1,513 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*my styling start here*/
+body
+{
+  background-color:#F2F3F4;
+}
+.nav-portfolio a:hover
+{
+  color:red;
+}
+
+.main-header
+{
+  width:100%;
+  height: 140px;
+ position:fixed;
+ top:0;
+}
+.header-portfolio
+{
+ width: 100%;
+ height: 70px;
+ margin-top: 4px;
+}
+.background-img
+{
+  width: 100%;
+  height: 70px;
+  background-image: url(../image/backgroundImg.jpg);
+
+}
+.background-img a
+{
+  text-decoration: none;
+}
+.background-img a H1
+{
+  font-family: 'Mr Dafoe', cursive;
+  font-family: 'Rubik Beastly', cursive;
+  font-size: 23px;
+  font-weight: lighter;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+
+}
+
+.nav-portfolio
+{
+  background-color:#ECE1CC;
+  width: 100%;
+  height: 70px;
+
+}
+.nav-portfolio ul a
+{
+  font-size: 13px;
+ text-decoration: none;
+ color: black;
+}
+
+.nav-portfolio ul a li
+{
+ display: inline-block;
+ line-height: 70px;
+ padding-left: 10px;
+}
+.wrapper
+{
+  width: 300px;
+  margin: 0px auto;
+  padding-top: 150px;
+}
+.pageNotFound
+{
+  padding-top: 150px;
+}
+.description
+{
+  margin-top: 30px;
+/*  line-height: 30px;*/
+  padding-left: 7px;
+}
+
+
+.wrapper h1
+{
+  margin-top: 70px;
+  line-height: 30px;
+  padding-left: 7px;
+}
+.wrapper  p
+{
+  margin-top: 70px;
+  line-height: 30px;
+  padding-left: 7px;
+}
+.wrapper  h1
+{
+line-height: 0px;
+}
+.wrapper  a
+{
+ text-decoration: none;
+color :red;
+}
+.description p span
+{
+  color: red;
+}
+
+/*.footer-base
+{
+  width: 100%;
+  height:auto;
+
+}*/
+footer
+{
+
+  width: 300px;
+  margin: 0px auto;
+}
+.footer-base
+{
+  background-color: white;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  height:230px;
+  padding-top:0px;
+
+}
+.section-base
+{
+  width: 100%;
+  height:230px;
+  margin-top:30px;
+
+}
+/*.article-1
+{
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.nav-footer
+{
+  width: 50%;
+  height: 600px;
+}
+.nav-footer ul a li
+{
+ padding-left: 7px;
+ padding-top: 0px;
+ line-height: 100px;
+}
+.nav-footer ul a
+{
+ text-decoration: none;
+ color: black;
+}*/
+.article-2
+{
+  width: 100%;/*WAS 50%*/
+  height: 230px;
+  float: right;
+  line-height: 85px;
+  margin-top: 20px;
+}
+/*.article-2 a
+{
+float: left;
+text-decoration: none;
+}*/
+.article-2 a img
+{
+ width: 90px;
+ height: 70px;
+ padding-left: 7px;
+
+}
+/*.article-2 img
+{
+  width: 50%;
+}*/
+.pageNotFound
+{
+  width: 300px;
+  margin: 0px auto;
+  margin-top: 70px;
+  line-height: 30px;
+  padding-left: 7px;
+}
+.pageNotFound h1
+{
+  font-size: 40px;
+ text-align: center;
+ line-height: 50px;
+}
+.pageNotFound
+{
+    margin-top: 0px;
+}
+.pageNotFound p
+{
+  line-height: 40px;
+}
+.pageNotFound p a
+{
+  text-decoration: none;
+}
+.pageNotFound p a span
+{
+  color: red;
+}
+
+@media only screen and (min-width: 768px)
+{
+
+  .main-header
+  {
+    width: 100%;
+    height: auto;
+  }
+  .header-Portfolio
+  {
+    width: 100%;
+    height: 160px;
+  }
+  .background-img
+  {
+    width: 100%;
+    height: 160px;
+    background-image: url(../image/backgroundImg.jpg);
+
+  }
+  .background-img a
+  {
+    text-decoration: none;
+  }
+
+  .background-img a h1
+  {
+    font-family: 'Mr Dafoe', cursive;
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 23px;
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    line-height: 160px;
+  }
+  .nav-portfolio
+  {
+    background-color:#ECE1CC;
+    width: 100%;
+    height: 40px;
+    float: right;
+
+  }
+  .nav-portfolio ul
+  {
+   list-style: none;
+   float: right;
+
+  }
+  .nav-portfolio ul a
+  {
+    text-decoration: none;
+    color:black;
+  }
+  .nav-portfolio ul a li
+  {
+   display: inline-block;
+   padding-right: 31px;
+   line-height: 40px;
+  }
+  .backImgNotFound img
+  {
+    display: none;
+  }
+  .pageNotFound
+  {
+    margin-top: 70px;
+  }
+  .pageNotFound h1
+  {
+    padding-left: 0px;
+  }
+
+ .wrapper
+ {
+   width: 700px;
+   height: auto;
+   margin: 0px auto;
+
+ }
+ .description
+ {
+   width: 700px;
+   height:250px;
+   margin-top: 50px;
+   line-height: 30px;
+
+ }
+ .footer-base
+ {
+   width: 700px;
+   height: auto;
+   overflow: hidden;
+   margin-bottom: 40px;
+
+ }
+ .section-base
+ {
+   width: 100%;
+   height: auto;
+   overflow:hidden;
+ }
+
+ /*.article-1
+ {
+   width: 50%;
+   height: auto;
+   float: left;
+ }
+ .nav-footer
+ {
+  width: 50%;
+  height: auto;
+  margin-left: 80px;
+ }
+ .nav-footer ul
+ {
+
+ }
+ .nav-footer ul a
+ {
+   text-decoration: none;
+   color:black;
+ }
+ .nav-footer ul a li
+ {
+  list-style: none;
+  padding-top: 0px;
+  line-height: 55px;
+ }*/
+ .article-2
+ {
+   width: 100%;/*was 50%*/
+   height: auto;
+   /*float: right;
+   display: flex;
+   flex-direction:row;
+   flex-wrap: wrap;*/
+
+
+ }
+
+ .article-2 a img
+ {
+   /*margin-right:55px;
+   width: 120px;
+   height: 100px;*/
+   padding-left: 40px;
+ }
+
+}
+@media only screen and (min-width: 1000px)
+{
+
+  .wrapper
+  {
+    width: 1000px;
+  }
+  .description
+  {
+    width: 700px;
+    height:250px;
+    margin-top: 50px;
+    line-height: 30px;
+
+  }
+
+
+  .footer-base
+  {
+    width: 1000px;
+  }
+  .article-2 a img
+   {
+     padding-left: 85px;
+   }
+
+   .backImgNotFound img
+   {
+     display: none;
+   }
+   .pageNotFound
+   {
+     margin-top: 70px;
+   }
+   .pageNotFound h1
+   {
+     padding-left: 0px;
+   }
+
+}
